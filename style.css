@@ -1,0 +1,195 @@
+/* Link styled as button */
+.button-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f44336;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px 5px;
+}
+
+.button-link:hover {
+  background-color: #d32f2f;
+  opacity: 0.9;
+}
+
+
+
+
+/* Styling the logo */
+#logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 100px;
+    height: auto;
+  }
+  
+  /* Styling the rest of the page */
+  body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background: #87CEEB;
+  }
+  
+  h2 {
+    margin-top: 20px;
+    color: #333;
+  }
+  
+  p {
+    margin: 10px auto;
+    color: #0a0909;
+  }
+  
+  button {
+    margin: 10px 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    opacity: 0.9;
+  }
+  
+  #letters {
+    background-color: #4CAF50;
+  }
+  
+  #numbers {
+    background-color: #4CAF50;
+  }
+  
+  #p5-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 600px;
+    position: relative;
+  }
+  
+  #button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  #randomize {
+    background-color: #007bff;
+  }
+  
+  #randomize:hover {
+    background-color: #0056b3;
+  }
+  
+  #back {
+    background-color: #f44336;
+  }
+  
+  #back:hover {
+    background-color: #d32f2f;
+  }
+  
+  #congratulations {
+    margin-top: 20px;
+    font-size: 24px;
+    color: green;
+    font-weight: bold;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
+  footer {
+    width: 100%;
+    
+    color: rgb(2, 2, 2);
+    text-align: center;
+    padding: 10px 0;
+    
+    bottom: 0;
+}
+
+/* Link styled as button */
+.button-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #f44336;
+  color: white;
+  border-radius: 5px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px 5px;
+}
+
+.button-link:hover {
+  background-color: #d32f2f;
+  opacity: 0.9;
+}
+
+/* Styling for attempt button */
+.blue-button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 5px;
+}
+
+.blue-button:hover {
+  background-color: #0056b3;
+}
+
+/* Stopwatch container */
+#stopwatch-container {
+  margin-top: 10px;
+  font-size: 18px;
+  color: #333;
+}
+
+#stopwatch {
+  font-weight: bold;
+  color: green;
+}
+
+#grade-container {
+  margin-top: 20px;
+}
+
+#grade-display {
+  font-size: 20px;
+  font-weight: bold;
+  color: blue;
+}
+
+/* Tooltip Styles */
+#tooltip {
+  position: absolute;
+  background-color: #fff;
+  color: #333;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+  max-width: 300px;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+  display: none;
+  z-index: 100;
+}
+

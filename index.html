@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Recognize Letters & Numbers</title>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/p5.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/addons/p5.sound.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.4/addons/p5.dom.min.js"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <img id="logo" src="Logo2.png" alt="Logo" />
+  <h2>Recognize Letters & Numbers</h2>
+  <p>A silly monkey messed up the letters! Help put them in order!</p>
+  <div>
+    <button id="letters">Letters</button>
+    <button id="numbers">Numbers</button>
+    <button id="attempt" class="blue-button">Attempt</button>
+  </div>
+  <div id="stopwatch-container">
+    <span id="stopwatch">00:00</span>
+  </div>
+  <div id="p5-container"></div>
+  <div id="button-container">
+    <button id="randomize">Randomize</button>
+    <a href="http://127.0.0.1:5502/index.html" id="back" class="button-link">Back</a>
+  </div>
+  <div id="congratulations" class="hidden">
+    🎉 <span>Congratulations!! 👏👏</span>
+  </div>
+  <div id="grade-container" class="hidden">
+    <p id="grade-display"></p>
+  </div>
+<!-- Tooltip Container -->
+<div id="tooltip" class="hidden"></div>
+
+  <footer>
+    Designed For Namibian Correctional Service
+  </footer>
+  <script src="sketch.js"></script>
+</body>
+</html>
